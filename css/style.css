@@ -361,6 +361,21 @@ center {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
     }
+    .showcase-top a {
+        right: 30px;
+    }
+    .footer li {
+        line-height: 1.2rem;
+    }
+    .table {
+        width: 100%;
+    }
+    .table thead th {
+        padding: 0.2rem;
+    }
+    .table tbody tr td {
+        padding: 0.2rem;
+    }
 }
 
 @media(max-height: 600px) {
